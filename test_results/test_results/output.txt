@@ -1,0 +1,4 @@
+Test: Status Check
+Result: Success
+Message: "Validating step: Get Status"
+API responded as expected with status 200 and correct JSON body.
