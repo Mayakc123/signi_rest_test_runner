@@ -1,0 +1,11 @@
+name: Status Check Test
+description: Checks if the /status endpoint is working
+steps:
+  - name: Get Status
+    request:
+      method: GET
+      url: http://localhost:3000/status
+    response:
+      status_code: 200
+      body:
+        message: API is working fine!
